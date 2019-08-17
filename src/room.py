@@ -14,6 +14,8 @@ class Room:
     def get_items(self):
         return self.items
 
+    #append items
+
     def add_item(self, item):
         return self.items.append(item)
 
